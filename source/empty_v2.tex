@@ -1,0 +1,44 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{underscore}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+
+\geometry{
+a4paper,
+total={170mm,257mm},
+left=20mm,
+top=20mm,
+}
+
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\begin{document}
+
+\title{titlestring}
+\author{Alexandre Pohl, University California Riverside}
+\date{\today}
+\maketitle
+
+\listoffigures
+
+\clearpage
+
+This PDF is an output of basicdiag_genie_toPDF.py (\url{https://github.com/alexpohl?tab=repositories}). \\ 
+
+
+%Please note that for phys_opsi and phys_psi, differences are actually differences of absolute values since signs are otherwise confusing. \\
+
+\begin{flushleft}
+sentence_to_be_replaced
+\end{flushleft}
+
+\clearpage
+
+\pagenumbering{arabic}
+
+
